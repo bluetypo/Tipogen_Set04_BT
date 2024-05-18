@@ -4,6 +4,14 @@
 
 Tipogen_set04 is a generative typography project created using Processing. This repository contains the source code and assets necessary to generate unique typographic compositions programmatically.
 
+## File Structure
+
+- **Fonts**: Contains final version fonts used in the project.
+- **resources**: Repository for various materials related to the project.
+- **sources**: Glyphs and .fea files.
+- **specimen**: Contains specimen files.
+- **Tipogen_Set04_BT**: Processing generative code for creating typography.
+
 ## Features
 
 - **Generative Typography**: Utilizes algorithms to dynamically create diverse typographic designs.
