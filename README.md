@@ -2,7 +2,7 @@
 
 ## Description
 
-Tipogen_set04 is a generative typography project created using Processing. This repository contains the source code and assets necessary to generate unique typographic compositions programmatically.
+Tipogen_set04 is an open-source generative typography project created using Processing. This repository contains the source code and assets necessary to programmatically generate unique typographic compositions.
 
 ## File Structure
 
