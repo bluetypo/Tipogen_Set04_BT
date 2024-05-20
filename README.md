@@ -31,7 +31,7 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 ![Example 1](./resources/example1.gif)
 *Generated Typography Example 1*
 
-![Example 2](./resources/example2.gif)
+![Example 2](./resources/example2b.gif)
 *Generated Typography Example 2*
 
 ## Credits
