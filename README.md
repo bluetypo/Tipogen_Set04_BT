@@ -23,7 +23,7 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 1. Install Processing IDE from [Processing.org](https://processing.org/download/).
 2. Clone this repository to your local machine using `git clone`.
 3. Open the project in Processing IDE.
-4. Run the sketch to generate a new typographic composition.
+4. Run the sketch to generate a new typographic composition. Use letter "e" to export to pdf
 5. Experiment with the parameters in the code to customize the output according to your preferences.
 
 ## Examples
