@@ -34,6 +34,10 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 ![Example 2](./resources/example2b.gif)
 *Generated Typography Example 2*
 
+![Example 3](./resources/TypoGen_02.gif)
+*Generated Typography Example 3*
+
+
 ## Credits
 
 This project is inspired by the intersection of art, design, and technology. It was created by Manuel Guerrero and is open for contributions and collaborations. Visit my website at [bluetypo.com](https://bluetypo.com).
