@@ -9,7 +9,7 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 - **Fonts**: Contains final version fonts used in the project.
 - **resources**: Repository for various materials related to the project.
 - **sources**: Glyphs and .fea files.
-- **specimen**: Contains [specimen](./specimen/Specimen_Color.pdf) files.
+- **[specimen](./specimen/Specimen_Color.pdf)** files.
 - **Tipogen_Set04_BT**: Processing generative code for creating typography.
 
 ## Features
