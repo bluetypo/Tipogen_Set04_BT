@@ -11,13 +11,13 @@ RPoint[] pnts;
 
 
 void setup() { 
-  size (900, 400); 
+  size (800, 400); 
   // inicia la libraria y genera la fuente 
   RG.init(this); 
-  font = new RFont("FreeSans.ttf", 240, RFont. LEFT) ; 
+  font = new RFont("KatahdinRound-Bold.ttf", 220, RFont. LEFT) ; 
   
   // define la densidad de puntos 
-  RCommand.setSegmentLength(6); 
+  RCommand.setSegmentLength(20); 
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH); 
 
   if ( SampleText. length () > 0) {
@@ -35,15 +35,15 @@ void draw() {
   // instrucción para expertar a pdf
   // (Asigna carpeta y nombre del archivo)
   if (record) {
-    beginRecord(PDF, "pdf/txtln-####.pdf");
+    beginRecord(PDF, "pdf/" +SampleText + "/" + SampleText + "-####.pdf");
   }
-  background(#3e5497); // color de fondo
-  translate (100, 280);  // posición del texto
+  background(#E84D00); // color de fondo
+  translate (width/2-310, 250);  // posición del texto
   
   for (int i=0; i<pnts.length; i++) {
     pushMatrix();
     translate(pnts[i].x, pnts[i].y);
-    dibuja4();
+    dibuja2();
     popMatrix();
   } 
 
