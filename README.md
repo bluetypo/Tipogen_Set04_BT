@@ -6,7 +6,7 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 
 ## File Structure
 
-- **Fonts**: Contains final version fonts used in the project.
+- **Fonts**: Contains final version fonts generated in the project. Textgrow.otf
 - **resources**: Repository for various materials related to the project.
 - **sources**: Glyphs and .fea files.
 - **[specimen](./specimen/Specimen_Color.pdf)** files.
