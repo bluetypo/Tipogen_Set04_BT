@@ -40,7 +40,7 @@ Tipogen_set04 is an open-source generative typography project created using Proc
 
 ## Credits
 
-This project is inspired by the intersection of art, design, and technology. It was created by Manuel Guerrero and is open for contributions and collaborations. Special thanks to Alfonso Alba. Visit my website at [bluetypo.com](https://bluetypo.com).
+This project is inspired by the intersection of art, design, and technology. It was created by Manuel Guerrero and is open for contributions and collaborations. Special thanks to Alfonso Alba. Visit my website at [bluetypo.com](https://bluetypo.com) or visit mi [Domestika](https://www.domestika.org/es/courses/147-diseno-tipografico-experimental-con-processing/bluetypo) course
 
 ## License
 
