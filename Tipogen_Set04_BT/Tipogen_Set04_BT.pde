@@ -6,18 +6,18 @@ boolean shouldRecord;
 // Declara objetos 
 PFont myFont;
 RFont font;  
-String SampleText = "TYPE"; 
+String SampleText = "T I P O G E N"; 
 RPoint[] pnts;
 
 void setup() { 
-  size(800, 400); 
+  size(1400, 600); 
   
   // Inicia la librería y genera la fuente 
   RG.init(this); 
-  font = new RFont("Base.ttf", 220, RFont.LEFT); 
+  font = new RFont("FreeSans.ttf", 180, RFont.LEFT); 
   
   // Define la densidad de puntos 
-  RCommand.setSegmentLength(20); 
+  RCommand.setSegmentLength(5); 
   RCommand.setSegmentator(RCommand.UNIFORMLENGTH); 
 
   if (SampleText.length() > 0) {
@@ -35,20 +35,16 @@ void draw() {
   if (shouldRecord) {
     beginRecord(PDF, "pdf/" + SampleText + "/" + SampleText + "-####.pdf");
   }
-  
+  frameRate(5);
   background(#E84D00); // Color de fondo
-  translate(width/2 - 310, 250);  // Posición del texto
+  translate(width/2-600, 250);  // Posición del texto
   
   // Dibuja los puntos en el lienzo
   for (int i = 0; i < pnts.length; i++) {
     pushMatrix();
     translate(pnts[i].x, pnts[i].y);
-    
-    // Sustituí "dibuja2();" por una elipse para que compile. 
-    // Si tienes la función dibuja2(), puedes volver a ponerla aquí abajo.
-    noStroke();
-    fill(255);
-    ellipse(0, 0, 5, 5); 
+  
+    dibuja4();
     
     popMatrix();
   } 
